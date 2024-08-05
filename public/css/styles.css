@@ -1,0 +1,60 @@
+*{
+    background-color: #3572c4;
+}
+
+.title{
+    font-family: "Open Sans", sans-seriff;
+    font-size: 65px;
+    color:white;
+    text-align: center;
+    margin-top:108px;
+    margin-bottom:79px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    gap:76px;
+}
+
+img{
+    background-color: #004aad;
+    border-radius:10px;
+    margin-top:41px;
+}
+
+.cryptoCard{
+    background-color: #004aad;
+    width:324px;
+    height:500px;
+    text-align:center;
+    border-radius: 80px;
+    border-style:solid;
+    border-color:white;
+}
+
+.crypto{
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color:white;
+    margin-bottom:0px;
+}
+
+.crypto.name{
+    margin-top:16px;
+    font-size: 25px;
+}
+
+.crypto.price{
+    margin-top:32px;
+}
+
+p{
+    font-weight: bold;
+    margin:0px;
+}
+
+span{
+    background-color: transparent;
+}

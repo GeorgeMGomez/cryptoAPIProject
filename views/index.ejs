@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>myCryptoAPIProject</title>
+</head>
+<body>
+    <h1 class="title">I'm <span style="color:#06ff87">bullish</span> on these cryptos.</h1>
+    <div class="container">
+        <div class="cryptoCard">
+            <img src="/images/bitcoin-btc-logo.png" alt="Bitcoin-icon" width="192.8" height="192.8">
+            <h4 class="crypto name">Bitcoin</h4>
+            <p class="crypto price">Price: <%= bitcoinPrice %>$</p>
+            <% if(bitcoinPercentOne>0){%>
+                <p class="crypto percentage">1 hour: <span style="color:green"><%= bitcoinPercentOne %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">1 hour: <span style="color:red"><%= bitcoinPercentOne %>%</span></p>
+            <%}%>
+            <% if(bitcoinPercentTwo>0){%>
+                <p class="crypto percentage">24 hours: <span style="color:green"><%= bitcoinPercentTwo %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">24 hours: <span style="color:red"><%= bitcoinPercentTwo %>%</span></p>
+            <%}%>
+            <% if(bitcoinPercentThree>0){%>
+                <p class="crypto percentage">7 days: <span style="color:green"><%= bitcoinPercentThree %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">7 days: <span style="color:red"><%= bitcoinPercentThree %>%</span></p>
+            <%}%>
+        </div>
+
+        <div class="cryptoCard">
+            <img src="/images/ethereum-eth-logo.png" alt="Ethereum-icon" width="192.8" height="192.8">
+            <h4 class="crypto name">Ethereum</h4>
+            <p class="crypto price">Price: <%= ethereumPrice %>$</p>
+            <% if(ethereumPercentOne>0){%>
+                <p class="crypto percentage">1 hour: <span style="color:green"><%= ethereumPercentOne %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">1 hour: <span style="color:red"><%= ethereumPercentOne %>%</span></p>
+            <%}%>
+            <% if(ethereumPercentTwo>0){%>
+                <p class="crypto percentage">24 hours: <span style="color:green"><%= ethereumPercentTwo %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">24 hours: <span style="color:red"><%= ethereumPercentTwo %>%</span></p>
+            <%}%>
+            <% if(ethereumPercentThree>0){%>
+                <p class="crypto percentage">7 days: <span style="color:green"><%= ethereumPercentThree %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">7 days: <span style="color:red"><%= ethereumPercentThree %>%</span></p>
+            <%}%>
+        </div>
+
+        <div class="cryptoCard">
+            <img src="/images/solana-sol-logo.png" alt="Solana-icon" width="192.8" height="192.8">
+            <h4 class="crypto name">Solana</h4>
+            <p class="crypto price">Price: <%= solanaPrice %>$</p>
+            <% if(solanaPercentOne>0){%>
+                <p class="crypto percentage">1 hour: <span style="color:green"><%= solanaPercentOne %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">1 hour: <span style="color:red"><%= solanaPercentOne %>%</span></p>
+            <%}%>
+            <% if(solanaPercentTwo>0){%>
+                <p class="crypto percentage">24 hours: <span style="color:green"><%= solanaPercentTwo %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">24 hours: <span style="color:red"><%= solanaPercentTwo %>%</span></p>
+            <%}%>
+            <% if(solanaPercentThree>0){%>
+                <p class="crypto percentage">7 days: <span style="color:green"><%= solanaPercentThree %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">7 days: <span style="color:red"><%= solanaPercentThree %>%</span></p>
+            <%}%>
+        </div>
+            
+        <div class="cryptoCard">
+            <img src="/images/cardano-ada-logo.png" alt="Cardano-icon" width="192.8" height="192.8">
+            <h4 class="crypto name">Cardano</h4>
+            <p class="crypto price">Price: <%= cardanoPrice %>$</p>
+            <% if(cardanoPercentOne>0){%>
+                <p class="crypto percentage">1 hour: <span style="color:green"><%= cardanoPercentOne %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">1 hour: <span style="color:red"><%= cardanoPercentOne %>%</span></p>
+            <%}%>
+            <% if(cardanoPercentTwo>0){%>
+                <p class="crypto percentage">24 hours: <span style="color:green"><%= cardanoPercentTwo %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">24 hours: <span style="color:red"><%= cardanoPercentTwo %>%</span></p>
+            <%}%>
+            <% if(cardanoPercentThree>0){%>
+                <p class="crypto percentage">7 days: <span style="color:green"><%= cardanoPercentThree %>%</span></p>
+            <%}else{%>
+                <p class="crypto percentage">7 days: <span style="color:red"><%= cardanoPercentThree %>%</span></p>
+            <%}%>
+        </div>
+    </div>
+</body>
+</html>
