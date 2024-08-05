@@ -17,6 +17,7 @@ cd cryptoAPIProject
 
 ## Step Three: Installation of NodeJS
 On windows install node JS from here: https://nodejs.org/en
+
 On linux run the following command in the terminal.
 ```
 sudo apt update
